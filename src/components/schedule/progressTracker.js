@@ -5,7 +5,7 @@ class ProgressTracker extends Component {
         return (
             <div className="progress-tracker">
                 <label className="progress-tracker__label">Progress Tracker</label>
-                <div class="progress-tracker__percentage">
+                <div className="progress-tracker__percentage">
                     0%
                 </div>
             </div>

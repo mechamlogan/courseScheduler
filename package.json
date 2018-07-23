@@ -1,7 +1,7 @@
 {
-  "name": "react-bootstrap",
+  "name": "react-redux",
   "version": "1.0.0",
-  "description": "Basic skeleton codebase for React with Bootstrap applications.",
+  "description": "Basic skeleton codebase for React/Redux applications.",
   "scripts": {
     "postinstall": "cp env.example.js env.js",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
@@ -61,6 +61,9 @@
     "prop-types": "^15.5.10",
     "react": "^16.2.0",
     "react-dom": "^16.0.0",
+    "react-redux": "5.0.6",
+    "react-router": "^4.2.0",
+    "redux": "^3.7.2",
     "reactstrap": "^5.0.0-alpha.4",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
