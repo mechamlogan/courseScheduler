@@ -9,7 +9,7 @@ class LibraryCourse extends Component {
         return (
             <div className="library-course">
                 <div className="library-course__title-check">
-                    <label className="library-course__title"><h1>{ this.props.title }</h1></label>
+                    <label className="library-course__title"><h2>{ this.props.title }</h2></label>
                     {Icon('fas fa-check', 'library-course__icon')}
                 </div>
                 <Arrow className="library-course__arrow" />
