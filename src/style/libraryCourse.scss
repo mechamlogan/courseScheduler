@@ -1,6 +1,6 @@
 .library-course {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fill,1fr);
     grid-template-rows: 50px 1fr;
     grid-row-gap: 22px;
 
@@ -14,6 +14,8 @@
         grid-column: 1/-1;
         grid-row: 1/2;
         border-bottom: 1px solid #f2f2f2;
+        margin-top: 19px;
+        margin-bottom: 24px;
     }
 
     &__arrow {
@@ -43,7 +45,7 @@
     &__title {
         color: $color-gray;
         font-family: $font-lato;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 22px;
     }
 
