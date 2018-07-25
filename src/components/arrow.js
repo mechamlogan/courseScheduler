@@ -12,19 +12,20 @@ class Arrow extends Component {
 
     toggleArrow = function() {
         if(this.state.status) {
-          //closes it
-          document.getElementById('arrow').classlist.remove('arrow-closed');
-    
-        } else {
-          //open
-          document.getElementById('arrow').classlist.add('arrow-closed');
-        }
-    
+        //closes it
+        document.getElementById('arrow').classList.remove('arrow-closed');
+
+    } else {
+        //open
+        document.getElementById('arrow').classList.add('arrow-closed');
+    }
+
         this.setState({ status: !this.state.status })
-      }.bind(this);
+    }.bind(this);
+
     render() {
         return (
-            <a onClick={() => this.toggleArrow()}className={`${this.props.className} arrow`}></a>
+            <a id="arrow" onClick={() => this.toggleArrow()}className={`${this.props.className} arrow`}></a>
         )
     }
 }
