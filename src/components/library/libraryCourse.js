@@ -48,7 +48,7 @@ class LibraryCourse extends Component {
                 />
                 <Action
                     id={this.props.id}
-                    onClick={() => this.props.toggleEnrolled(this.props.id)} 
+                    onClick={() => this.props.toggleEnrolled(this.props.id)}
                     className={`library-course__action ${this.props.enrolled ? 'action-remove' : ''}`}
                 />
 
